@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+.venv-terminal/
+.venv*/
+venv/
+.runtime/
+data/
+outputs/
+terminal/node_modules/
+terminal/dist/
+.pytest_cache/
+.coverage
+coverage/
+*.log
+*.sqlite3*
+*.db
+*.pem
+*.key
+*.zip
+.DS_Store
+
+# Local backups and optional future provider credentials
+backups/
+.env
+.env.*
+!.env.example

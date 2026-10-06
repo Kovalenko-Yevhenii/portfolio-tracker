@@ -1,0 +1,4 @@
+ticker,qty,avg_cost,currency
+AAPL,10,160.0,USD
+MSFT,5,320.0,USD
+VOO,8,420.0,USD
