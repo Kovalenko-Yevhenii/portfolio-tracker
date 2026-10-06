@@ -1,0 +1,504 @@
+{
+  "mode": "holdings",
+  "metrics": {
+    "as_of": "2026-09-14T17:46:34.589066+00:00",
+    "valuation_date": "2025-01-06 00:00:00",
+    "currency": "USD",
+    "total_cost": 395.0,
+    "invested_cost": 295.0,
+    "cash_balance": 100.0,
+    "securities_value": 428.0,
+    "total_value": 528.0,
+    "total_unrealized_pnl": 133.0,
+    "interval": "1d",
+    "return_basis": "price",
+    "performance_start": "2025-01-01 00:00:00",
+    "performance_end": "2025-01-06 00:00:00",
+    "missing_performance_observations": 0,
+    "annualized_volatility_window_observations": 2,
+    "annualized_volatility_window_days": 2,
+    "annualized_volatility": 1.405723806681661,
+    "maximum_drawdown": -0.03879310344827591,
+    "missing_price_observations": 0,
+    "warnings": [],
+    "dividends_last_year_by_ticker": {}
+  },
+  "positions": {
+    "columns": [
+      "ticker",
+      "qty",
+      "avg_cost",
+      "currency",
+      "last_price",
+      "market_value",
+      "cost_value",
+      "unrealized_pnl"
+    ],
+    "index": [
+      "0",
+      "1"
+    ],
+    "data": [
+      [
+        "AAA",
+        2.0,
+        80.0,
+        "USD",
+        130.0,
+        260.0,
+        160.0,
+        100.0
+      ],
+      [
+        "BBB",
+        3.0,
+        45.0,
+        "USD",
+        56.0,
+        168.0,
+        135.0,
+        33.0
+      ]
+    ]
+  },
+  "history": {
+    "columns": [
+      "AAA",
+      "BBB",
+      "portfolio_value",
+      "cash_balance",
+      "performance_value",
+      "price_returns",
+      "returns",
+      "drawdown",
+      "return_basis"
+    ],
+    "index": [
+      "2025-01-01 00:00:00",
+      "2025-01-02 00:00:00",
+      "2025-01-03 00:00:00",
+      "2025-01-04 00:00:00",
+      "2025-01-05 00:00:00",
+      "2025-01-06 00:00:00"
+    ],
+    "data": [
+      [
+        200.0,
+        150.0,
+        450.0,
+        100.0,
+        450.0,
+        null,
+        null,
+        0.0,
+        "price"
+      ],
+      [
+        220.0,
+        144.0,
+        464.0,
+        100.0,
+        464.0,
+        0.031111111111111,
+        0.031111111111111,
+        0.0,
+        "price"
+      ],
+      [
+        190.0,
+        156.0,
+        446.0,
+        100.0,
+        446.0,
+        -0.038793103448276,
+        -0.038793103448276,
+        -0.038793103448276,
+        "price"
+      ],
+      [
+        240.0,
+        159.0,
+        499.0,
+        100.0,
+        499.0,
+        0.118834080717489,
+        0.118834080717489,
+        0.0,
+        "price"
+      ],
+      [
+        230.0,
+        153.0,
+        483.0,
+        100.0,
+        483.0,
+        -0.032064128256513,
+        -0.032064128256513,
+        -0.032064128256513,
+        "price"
+      ],
+      [
+        260.0,
+        168.0,
+        528.0,
+        100.0,
+        528.0,
+        0.093167701863354,
+        0.093167701863354,
+        0.0,
+        "price"
+      ]
+    ]
+  },
+  "performance_normalized": {
+    "columns": [
+      "My portfolio"
+    ],
+    "index": [
+      "2025-01-01 00:00:00",
+      "2025-01-02 00:00:00",
+      "2025-01-03 00:00:00",
+      "2025-01-04 00:00:00",
+      "2025-01-05 00:00:00",
+      "2025-01-06 00:00:00"
+    ],
+    "data": [
+      [
+        100.0
+      ],
+      [
+        103.11111111111111
+      ],
+      [
+        99.11111111111111
+      ],
+      [
+        110.88888888888889
+      ],
+      [
+        107.33333333333333
+      ],
+      [
+        117.33333333333333
+      ]
+    ]
+  },
+  "comparison": {
+    "normalized": {
+      "columns": [
+        "My portfolio",
+        "Benchmark: SPY"
+      ],
+      "index": [
+        "2025-01-01 00:00:00",
+        "2025-01-02 00:00:00",
+        "2025-01-03 00:00:00",
+        "2025-01-04 00:00:00",
+        "2025-01-05 00:00:00",
+        "2025-01-06 00:00:00"
+      ],
+      "data": [
+        [
+          100.0,
+          100.0
+        ],
+        [
+          103.11111111111111,
+          103.0
+        ],
+        [
+          99.11111111111111,
+          98.0
+        ],
+        [
+          110.88888888888889,
+          110.00000000000001
+        ],
+        [
+          107.33333333333333,
+          108.0
+        ],
+        [
+          117.33333333333333,
+          115.99999999999999
+        ]
+      ]
+    },
+    "drawdowns": {
+      "columns": [
+        "My portfolio",
+        "Benchmark: SPY"
+      ],
+      "index": [
+        "2025-01-01 00:00:00",
+        "2025-01-02 00:00:00",
+        "2025-01-03 00:00:00",
+        "2025-01-04 00:00:00",
+        "2025-01-05 00:00:00",
+        "2025-01-06 00:00:00"
+      ],
+      "data": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -0.038793103448276,
+          -0.048543689320388
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -0.032064128256513,
+          -0.018181818181818
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "summary": {
+      "columns": [
+        "period_return",
+        "maximum_drawdown",
+        "excess_return_vs_benchmark"
+      ],
+      "index": [
+        "My portfolio",
+        "Benchmark: SPY"
+      ],
+      "data": [
+        [
+          0.173333333333333,
+          -0.038793103448276,
+          0.013333333333333
+        ],
+        [
+          0.16,
+          -0.048543689320388,
+          0.0
+        ]
+      ]
+    },
+    "risk": {
+      "summary": {
+        "columns": [
+          "sharpe_ratio",
+          "beta",
+          "matched_return_observations"
+        ],
+        "index": [
+          "My portfolio",
+          "Benchmark: SPY"
+        ],
+        "data": [
+          [
+            7.66402094482911,
+            1.020355558366347,
+            5
+          ],
+          [
+            7.368901426849424,
+            1.0,
+            5
+          ]
+        ]
+      },
+      "annual_risk_free_rate": 0.0,
+      "period_risk_free_rate": 0.0,
+      "interval": "1d",
+      "periods_per_year": 252,
+      "sample_start": "2025-01-01 00:00:00",
+      "sample_end": "2025-01-06 00:00:00",
+      "matched_return_observations": 5,
+      "warnings": [
+        "Risk estimates use only 5 matched returns and may be unstable. A longer history provides more evidence."
+      ]
+    },
+    "start": "2025-01-01 00:00:00",
+    "end": "2025-01-06 00:00:00",
+    "benchmark_label": "Benchmark: SPY",
+    "warnings": [],
+    "return_basis": "price",
+    "return_basis_label": "Price return"
+  },
+  "diversification": {
+    "allocation": {
+      "columns": [
+        "market_value",
+        "weight",
+        "volatility_contribution",
+        "risk_share"
+      ],
+      "index": [
+        "AAA",
+        "BBB",
+        "Uninvested cash (USD)"
+      ],
+      "data": [
+        [
+          260.0,
+          0.492424242424242,
+          1.171460601936485,
+          0.952715954322037
+        ],
+        [
+          168.0,
+          0.318181818181818,
+          0.058140515397704,
+          0.047284045677963
+        ],
+        [
+          100.0,
+          0.189393939393939,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "correlation": {
+      "columns": [
+        "AAA",
+        "BBB"
+      ],
+      "index": [
+        "AAA",
+        "BBB"
+      ],
+      "data": [
+        [
+          1.0,
+          -0.091386340994244
+        ],
+        [
+          -0.091386340994244,
+          1.0
+        ]
+      ]
+    },
+    "covariance": {
+      "columns": [
+        "AAA",
+        "BBB"
+      ],
+      "index": [
+        "AAA",
+        "BBB"
+      ],
+      "data": [
+        [
+          6.090874025873869,
+          -0.232931591580487
+        ],
+        [
+          -0.232931591580487,
+          1.06663196107677
+        ]
+      ]
+    },
+    "annualized_volatility": 1.2296011173341894,
+    "valuation_date": "2025-01-06 00:00:00",
+    "sample_start": "2025-01-01 00:00:00",
+    "sample_end": "2025-01-06 00:00:00",
+    "observations": 5,
+    "interval": "1d",
+    "warnings": [
+      "Only 5 matched returns are available; correlation and risk contributions may be unstable."
+    ]
+  },
+  "allocation_preview": null,
+  "identities": [
+    {
+      "ticker": "AAA",
+      "name": "Example AAA",
+      "exchange": "NYSE",
+      "currency": "USD"
+    },
+    {
+      "ticker": "BBB",
+      "name": "Example BBB",
+      "exchange": "NYSE",
+      "currency": "USD"
+    },
+    {
+      "ticker": "SPY",
+      "name": "Example SPY",
+      "exchange": "NYSE",
+      "currency": "USD"
+    }
+  ],
+  "warnings": [
+    "Risk estimates use only 5 matched returns and may be unstable. A longer history provides more evidence.",
+    "Only 5 matched returns are available; correlation and risk contributions may be unstable."
+  ],
+  "exports": [
+    {
+      "name": "positions_with_prices.csv",
+      "mime": "text/csv",
+      "content": "ticker,qty,avg_cost,currency,last_price,market_value,cost_value,unrealized_pnl\nAAA,2.0,80.0,USD,130.0,260.0,160.0,100.0\nBBB,3.0,45.0,USD,56.0,168.0,135.0,33.0\n"
+    },
+    {
+      "name": "portfolio_timeseries.csv",
+      "mime": "text/csv",
+      "content": ",AAA,BBB,portfolio_value,cash_balance,performance_value,price_returns,returns,drawdown,return_basis\n2025-01-01,200.0,150.0,450.0,100.0,450.0,,,0.0,price\n2025-01-02,220.0,144.0,464.0,100.0,464.0,0.03111111111111109,0.03111111111111109,0.0,price\n2025-01-03,190.0,156.0,446.0,100.0,446.0,-0.03879310344827591,-0.03879310344827591,-0.03879310344827591,price\n2025-01-04,240.0,159.0,499.0,100.0,499.0,0.1188340807174888,0.1188340807174888,0.0,price\n2025-01-05,230.0,153.0,483.0,100.0,483.0,-0.03206412825651306,-0.03206412825651306,-0.03206412825651306,price\n2025-01-06,260.0,168.0,528.0,100.0,528.0,0.0931677018633541,0.0931677018633541,0.0,price\n"
+    },
+    {
+      "name": "holdings_settings.json",
+      "mime": "application/json",
+      "content": "{\n  \"cash_balance\": 100.0,\n  \"return_basis\": \"price\",\n  \"positions\": [\n    {\n      \"ticker\": \"AAA\",\n      \"qty\": 2.0,\n      \"avg_cost\": 80.0,\n      \"currency\": \"USD\"\n    },\n    {\n      \"ticker\": \"BBB\",\n      \"qty\": 3.0,\n      \"avg_cost\": 45.0,\n      \"currency\": \"USD\"\n    }\n  ]\n}"
+    },
+    {
+      "name": "allocation_risk_price.csv",
+      "mime": "text/csv",
+      "content": "ticker,market_value,weight,volatility_contribution,risk_share,valuation_date,sample_start,sample_end,observations,interval,return_basis,modeled_annualized_volatility\nAAA,260.0,0.49242424242424243,1.1714606019364853,0.952715954322037,2025-01-06 00:00:00,2025-01-01 00:00:00,2025-01-06 00:00:00,5,1d,price,1.2296011173341894\nBBB,168.0,0.3181818181818182,0.05814051539770406,0.047284045677962926,2025-01-06 00:00:00,2025-01-01 00:00:00,2025-01-06 00:00:00,5,1d,price,1.2296011173341894\nUninvested cash (USD),100.0,0.1893939393939394,0.0,0.0,2025-01-06 00:00:00,2025-01-01 00:00:00,2025-01-06 00:00:00,5,1d,price,1.2296011173341894\n"
+    },
+    {
+      "name": "correlation_price.csv",
+      "mime": "text/csv",
+      "content": "ticker,AAA,BBB\nAAA,1.0,-0.09138634099424404\nBBB,-0.09138634099424404,1.0\n"
+    },
+    {
+      "name": "comparison_normalized_price.csv",
+      "mime": "text/csv",
+      "content": ",My portfolio,Benchmark: SPY\n2025-01-01,100.0,100.0\n2025-01-02,103.11111111111111,103.0\n2025-01-03,99.11111111111111,98.0\n2025-01-04,110.88888888888889,110.00000000000001\n2025-01-05,107.33333333333333,108.0\n2025-01-06,117.33333333333333,115.99999999999999\n"
+    },
+    {
+      "name": "comparison_drawdowns_price.csv",
+      "mime": "text/csv",
+      "content": ",My portfolio,Benchmark: SPY\n2025-01-01,0.0,0.0\n2025-01-02,0.0,0.0\n2025-01-03,-0.03879310344827591,-0.04854368932038833\n2025-01-04,0.0,0.0\n2025-01-05,-0.03206412825651306,-0.018181818181818188\n2025-01-06,0.0,0.0\n"
+    },
+    {
+      "name": "comparison_summary_price.csv",
+      "mime": "text/csv",
+      "content": ",period_return,maximum_drawdown,excess_return_vs_benchmark\nMy portfolio,0.17333333333333334,-0.03879310344827591,0.01333333333333342\nBenchmark: SPY,0.15999999999999992,-0.04854368932038833,0.0\n"
+    },
+    {
+      "name": "comparison_risk_price.csv",
+      "mime": "text/csv",
+      "content": ",sharpe_ratio,beta,matched_return_observations,annual_risk_free_rate,period_risk_free_rate,interval,sample_start,sample_end,benchmark,return_basis\nMy portfolio,7.66402094482911,1.020355558366347,5,0.0,0.0,1d,2025-01-01 00:00:00,2025-01-06 00:00:00,Benchmark: SPY,price\nBenchmark: SPY,7.368901426849424,1.0,5,0.0,0.0,1d,2025-01-01 00:00:00,2025-01-06 00:00:00,Benchmark: SPY,price\n"
+    }
+  ],
+  "settings": {
+    "total_invested": 10000,
+    "allocation_unit": "percent",
+    "mode": "holdings",
+    "source": "quantity",
+    "tickers": [],
+    "cash_balance": 100.0,
+    "benchmark": "SPY",
+    "period": "1y",
+    "interval": "1d",
+    "window": 2,
+    "return_basis": "price",
+    "annual_risk_free_rate": 0
+  },
+  "market_data_fetched_at": "2026-09-14T17:46:34.579905+00:00",
+  "calculated_at": "2026-09-14T17:46:34.603590+00:00"
+}

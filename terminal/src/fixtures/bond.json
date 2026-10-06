@@ -1,0 +1,724 @@
+{
+  "government": {
+    "model": "Regular fixed-rate bullet bond",
+    "model_version": 1,
+    "name": "Example Government 4% 2031",
+    "currency": "USD",
+    "issuer_type": "government",
+    "settlement": "2026-10-01",
+    "maturity": "2031-10-01",
+    "clean_price": 100.00000000000001,
+    "dirty_price": 100.00000000000001,
+    "accrued_per_100": 0.0,
+    "yield_percent": 4.0,
+    "effective_annual_yield": 4.039999999999999,
+    "clean_value": 10000.000000000002,
+    "settlement_value": 10000.000000000002,
+    "accrued_amount": 0.0,
+    "annual_coupon": 400.0,
+    "coupon_payment": 200.0,
+    "current_yield": 3.9999999999999996,
+    "macaulay_duration": 4.58111835318354,
+    "modified_duration": 4.491292503121118,
+    "convexity": 23.498865382733534,
+    "dv01": 4.491292503121119,
+    "market_yield_percent": null,
+    "market_gap": null,
+    "market_settlement_value": null,
+    "yield_solver_residual": null,
+    "audit": {
+      "previous_coupon": "2026-10-01",
+      "next_coupon": "2027-04-01",
+      "remaining_payments": 10,
+      "elapsed_days": 0,
+      "period_days": 182,
+      "accrued_fraction": 0.0,
+      "remaining_fraction": 1.0,
+      "frequency": 2,
+      "day_count": "actual_actual",
+      "date_roll": "maturity_day",
+      "discounting": "compound",
+      "simple_final_used": false,
+      "periodic_yield_percent": 2.0,
+      "redemption_per_100": 100
+    },
+    "cashflows": [
+      {
+        "date": "2027-04-01",
+        "periods": 1.0,
+        "years": 0.5,
+        "coupon_per_100": 2.0,
+        "principal_per_100": 0.0,
+        "position_cashflow": 200.0,
+        "discount_factor": 0.9803921568627451,
+        "present_value": 196.078431372549
+      },
+      {
+        "date": "2027-10-01",
+        "periods": 2.0,
+        "years": 1.0,
+        "coupon_per_100": 2.0,
+        "principal_per_100": 0.0,
+        "position_cashflow": 200.0,
+        "discount_factor": 0.9611687812379854,
+        "present_value": 192.23375624759709
+      },
+      {
+        "date": "2028-04-01",
+        "periods": 3.0,
+        "years": 1.5,
+        "coupon_per_100": 2.0,
+        "principal_per_100": 0.0,
+        "position_cashflow": 200.0,
+        "discount_factor": 0.9423223345470445,
+        "present_value": 188.4644669094089
+      },
+      {
+        "date": "2028-10-01",
+        "periods": 4.0,
+        "years": 2.0,
+        "coupon_per_100": 2.0,
+        "principal_per_100": 0.0,
+        "position_cashflow": 200.0,
+        "discount_factor": 0.9238454260265142,
+        "present_value": 184.76908520530284
+      },
+      {
+        "date": "2029-04-01",
+        "periods": 5.0,
+        "years": 2.5,
+        "coupon_per_100": 2.0,
+        "principal_per_100": 0.0,
+        "position_cashflow": 200.0,
+        "discount_factor": 0.9057308098299159,
+        "present_value": 181.1461619659832
+      },
+      {
+        "date": "2029-10-01",
+        "periods": 6.0,
+        "years": 3.0,
+        "coupon_per_100": 2.0,
+        "principal_per_100": 0.0,
+        "position_cashflow": 200.0,
+        "discount_factor": 0.8879713821861921,
+        "present_value": 177.59427643723842
+      },
+      {
+        "date": "2030-04-01",
+        "periods": 7.0,
+        "years": 3.5,
+        "coupon_per_100": 2.0,
+        "principal_per_100": 0.0,
+        "position_cashflow": 200.0,
+        "discount_factor": 0.8705601786139138,
+        "present_value": 174.11203572278276
+      },
+      {
+        "date": "2030-10-01",
+        "periods": 8.0,
+        "years": 4.0,
+        "coupon_per_100": 2.0,
+        "principal_per_100": 0.0,
+        "position_cashflow": 200.0,
+        "discount_factor": 0.8534903711901115,
+        "present_value": 170.69807423802231
+      },
+      {
+        "date": "2031-04-01",
+        "periods": 9.0,
+        "years": 4.5,
+        "coupon_per_100": 2.0,
+        "principal_per_100": 0.0,
+        "position_cashflow": 200.0,
+        "discount_factor": 0.8367552658726584,
+        "present_value": 167.35105317453167
+      },
+      {
+        "date": "2031-10-01",
+        "periods": 10.0,
+        "years": 5.0,
+        "coupon_per_100": 2.0,
+        "principal_per_100": 100.0,
+        "position_cashflow": 10200.0,
+        "discount_factor": 0.8203482998751553,
+        "present_value": 8367.552658726585
+      }
+    ],
+    "shocks": [
+      {
+        "shift_bps": -200,
+        "yield_percent": 2.0,
+        "clean_price": 109.47130453070167,
+        "dirty_price": 109.47130453070167,
+        "position_value": 10947.130453070167,
+        "change": 947.1304530701659,
+        "change_percent": 9.471304530701662,
+        "approx_change": 945.2562313896908
+      },
+      {
+        "shift_bps": -100,
+        "yield_percent": 3.0,
+        "clean_price": 104.61109227592722,
+        "dirty_price": 104.61109227592722,
+        "position_value": 10461.109227592722,
+        "change": 461.1092275927206,
+        "change_percent": 4.611092275927198,
+        "approx_change": 460.8786830034786
+      },
+      {
+        "shift_bps": -50,
+        "yield_percent": 3.5000000000000004,
+        "clean_price": 102.27530572865325,
+        "dirty_price": 102.27530572865325,
+        "position_value": 10227.530572865326,
+        "change": 227.53057286532368,
+        "change_percent": 2.275305728653243,
+        "approx_change": 227.50198332889764
+      },
+      {
+        "shift_bps": 0,
+        "yield_percent": 4.0,
+        "clean_price": 100.00000000000001,
+        "dirty_price": 100.00000000000001,
+        "position_value": 10000.000000000002,
+        "change": 0.0,
+        "change_percent": 0.0,
+        "approx_change": 0.0
+      },
+      {
+        "shift_bps": 50,
+        "yield_percent": 4.5,
+        "clean_price": 97.78344591278285,
+        "dirty_price": 97.78344591278285,
+        "position_value": 9778.344591278284,
+        "change": -221.65540872171619,
+        "change_percent": -2.2165540872171596,
+        "approx_change": -221.62726698321424
+      },
+      {
+        "shift_bps": 100,
+        "yield_percent": 5.0,
+        "clean_price": 95.62396803451453,
+        "dirty_price": 95.62396803451453,
+        "position_value": 9562.396803451453,
+        "change": -437.6031965485481,
+        "change_percent": -4.376031965485483,
+        "approx_change": -437.3798176207451
+      },
+      {
+        "shift_bps": 200,
+        "yield_percent": 6.0,
+        "clean_price": 91.46979716322417,
+        "dirty_price": 91.46979716322417,
+        "position_value": 9146.979716322418,
+        "change": -853.0202836775843,
+        "change_percent": -8.530202836775846,
+        "approx_change": -851.2607698587567
+      }
+    ],
+    "spread_grid": null,
+    "warnings": []
+  },
+  "corporate": {
+    "model": "Regular fixed-rate bullet bond",
+    "model_version": 1,
+    "name": "Example Corporate 6% 2031",
+    "currency": "USD",
+    "issuer_type": "corporate",
+    "settlement": "2026-10-01",
+    "maturity": "2031-10-01",
+    "clean_price": 102.16001904084719,
+    "dirty_price": 102.16001904084719,
+    "accrued_per_100": 0.0,
+    "yield_percent": 5.5,
+    "effective_annual_yield": 5.575625000000017,
+    "clean_value": 10216.001904084718,
+    "settlement_value": 10216.001904084718,
+    "accrued_amount": 0.0,
+    "annual_coupon": 600.0,
+    "coupon_payment": 300.0,
+    "current_yield": 5.873139077627802,
+    "macaulay_duration": 4.400768028972267,
+    "modified_duration": 4.282985916274711,
+    "convexity": 21.9223640604717,
+    "dv01": 4.375499227583048,
+    "market_yield_percent": null,
+    "market_gap": null,
+    "market_settlement_value": null,
+    "yield_solver_residual": null,
+    "audit": {
+      "previous_coupon": "2026-10-01",
+      "next_coupon": "2027-04-01",
+      "remaining_payments": 10,
+      "elapsed_days": 0,
+      "period_days": 180.0,
+      "accrued_fraction": 0.0,
+      "remaining_fraction": 1.0,
+      "frequency": 2,
+      "day_count": "30u360",
+      "date_roll": "maturity_day",
+      "discounting": "compound",
+      "simple_final_used": false,
+      "periodic_yield_percent": 2.75,
+      "redemption_per_100": 100
+    },
+    "cashflows": [
+      {
+        "date": "2027-04-01",
+        "periods": 1.0,
+        "years": 0.5,
+        "coupon_per_100": 3.0,
+        "principal_per_100": 0.0,
+        "position_cashflow": 300.0,
+        "discount_factor": 0.9732360097323601,
+        "present_value": 291.97080291970804
+      },
+      {
+        "date": "2027-10-01",
+        "periods": 2.0,
+        "years": 1.0,
+        "coupon_per_100": 3.0,
+        "principal_per_100": 0.0,
+        "position_cashflow": 300.0,
+        "discount_factor": 0.9471883306397665,
+        "present_value": 284.15649919193
+      },
+      {
+        "date": "2028-04-01",
+        "periods": 3.0,
+        "years": 1.5,
+        "coupon_per_100": 3.0,
+        "principal_per_100": 0.0,
+        "position_cashflow": 300.0,
+        "discount_factor": 0.9218377913769017,
+        "present_value": 276.5513374130705
+      },
+      {
+        "date": "2028-10-01",
+        "periods": 4.0,
+        "years": 2.0,
+        "coupon_per_100": 3.0,
+        "principal_per_100": 0.0,
+        "position_cashflow": 300.0,
+        "discount_factor": 0.8971657337001476,
+        "present_value": 269.1497201100443
+      },
+      {
+        "date": "2029-04-01",
+        "periods": 5.0,
+        "years": 2.5,
+        "coupon_per_100": 3.0,
+        "principal_per_100": 0.0,
+        "position_cashflow": 300.0,
+        "discount_factor": 0.8731539987349369,
+        "present_value": 261.9461996204811
+      },
+      {
+        "date": "2029-10-01",
+        "periods": 6.0,
+        "years": 3.0,
+        "coupon_per_100": 3.0,
+        "principal_per_100": 0.0,
+        "position_cashflow": 300.0,
+        "discount_factor": 0.8497849136106442,
+        "present_value": 254.93547408319327
+      },
+      {
+        "date": "2030-04-01",
+        "periods": 7.0,
+        "years": 3.5,
+        "coupon_per_100": 3.0,
+        "principal_per_100": 0.0,
+        "position_cashflow": 300.0,
+        "discount_factor": 0.8270412784531816,
+        "present_value": 248.11238353595448
+      },
+      {
+        "date": "2030-10-01",
+        "periods": 8.0,
+        "years": 4.0,
+        "coupon_per_100": 3.0,
+        "principal_per_100": 0.0,
+        "position_cashflow": 300.0,
+        "discount_factor": 0.8049063537257243,
+        "present_value": 241.47190611771728
+      },
+      {
+        "date": "2031-04-01",
+        "periods": 9.0,
+        "years": 4.5,
+        "coupon_per_100": 3.0,
+        "principal_per_100": 0.0,
+        "position_cashflow": 300.0,
+        "discount_factor": 0.7833638479082474,
+        "present_value": 235.00915437247426
+      },
+      {
+        "date": "2031-10-01",
+        "periods": 10.0,
+        "years": 5.0,
+        "coupon_per_100": 3.0,
+        "principal_per_100": 100.0,
+        "position_cashflow": 10300.0,
+        "discount_factor": 0.7623979055068102,
+        "present_value": 7852.698426720146
+      }
+    ],
+    "shocks": [
+      {
+        "shift_bps": -200,
+        "yield_percent": 3.5000000000000004,
+        "clean_price": 111.37652864326631,
+        "dirty_price": 111.37652864326631,
+        "position_value": 11137.652864326632,
+        "change": 921.6509602419123,
+        "change_percent": 9.021640450883272,
+        "approx_change": 919.891628113373
+      },
+      {
+        "shift_bps": -100,
+        "yield_percent": 4.5,
+        "clean_price": 106.64966226165143,
+        "dirty_price": 106.64966226165143,
+        "position_value": 10664.966226165143,
+        "change": 448.964322080424,
+        "change_percent": 4.394716507452023,
+        "approx_change": 448.7478684074957
+      },
+      {
+        "shift_bps": -50,
+        "yield_percent": 5.0,
+        "clean_price": 104.37603196548547,
+        "dirty_price": 104.37603196548547,
+        "position_value": 10437.603196548547,
+        "change": 221.6012924638278,
+        "change_percent": 2.169158684036887,
+        "approx_change": 221.57444779145013
+      },
+      {
+        "shift_bps": 0,
+        "yield_percent": 5.5,
+        "clean_price": 102.16001904084719,
+        "dirty_price": 102.16001904084719,
+        "position_value": 10216.001904084718,
+        "change": 0.0,
+        "change_percent": 0.0,
+        "approx_change": 0.0
+      },
+      {
+        "shift_bps": 50,
+        "yield_percent": 6.0,
+        "clean_price": 100.0,
+        "dirty_price": 100.0,
+        "position_value": 10000.0,
+        "change": -216.0019040847189,
+        "change_percent": -2.114348706203295,
+        "approx_change": -215.97547496685468
+      },
+      {
+        "shift_bps": 100,
+        "yield_percent": 6.5,
+        "clean_price": 97.89440122988786,
+        "dirty_price": 97.89440122988786,
+        "position_value": 9789.440122988786,
+        "change": -426.5617810959327,
+        "change_percent": -4.175427775961726,
+        "approx_change": -426.351977109114
+      },
+      {
+        "shift_bps": 200,
+        "yield_percent": 7.5,
+        "clean_price": 93.84040956124016,
+        "dirty_price": 93.84040956124016,
+        "position_value": 9384.040956124016,
+        "change": -831.9609479607025,
+        "change_percent": -8.143703924213785,
+        "approx_change": -830.3080629198462
+      }
+    ],
+    "spread_grid": {
+      "columns": [
+        50.0,
+        100.0,
+        150.0,
+        200.0,
+        250.0
+      ],
+      "rows": [
+        {
+          "benchmark": 3.0,
+          "values": [
+            111.37652864326631,
+            108.98258500624225,
+            106.64966226165143,
+            104.37603196548547,
+            102.16001904084719
+          ]
+        },
+        {
+          "benchmark": 3.5,
+          "values": [
+            108.98258500624225,
+            106.64966226165143,
+            104.37603196548547,
+            102.16001904084719,
+            100.0
+          ]
+        },
+        {
+          "benchmark": 4.0,
+          "values": [
+            106.64966226165143,
+            104.37603196548547,
+            102.16001904084719,
+            100.0,
+            97.89440122988786
+          ]
+        },
+        {
+          "benchmark": 4.5,
+          "values": [
+            104.37603196548547,
+            102.16001904084719,
+            100.0,
+            97.89440122988786,
+            95.84169733871101
+          ]
+        },
+        {
+          "benchmark": 5.0,
+          "values": [
+            102.16001904084719,
+            100.0,
+            97.89440122988786,
+            95.84169733871101,
+            93.84040956124016
+          ]
+        }
+      ]
+    },
+    "warnings": [
+      "Cash flows assume every payment is made. A spread adjusts the discount yield; this is not a default-probability, recovery or liquidity model."
+    ]
+  },
+  "yield": {
+    "model": "Regular fixed-rate bullet bond",
+    "model_version": 1,
+    "name": "Example Government 4% 2031",
+    "currency": "USD",
+    "issuer_type": "government",
+    "settlement": "2026-10-01",
+    "maturity": "2031-10-01",
+    "clean_price": 99.0,
+    "dirty_price": 99.0,
+    "accrued_per_100": 0.0,
+    "yield_percent": 4.223959554144536,
+    "effective_annual_yield": 4.268564139932174,
+    "clean_value": 9900.0,
+    "settlement_value": 9900.0,
+    "accrued_amount": 0.0,
+    "annual_coupon": 400.0,
+    "coupon_payment": 200.0,
+    "current_yield": 4.040404040404041,
+    "macaulay_duration": 4.578540671300346,
+    "modified_duration": 4.483842817753681,
+    "convexity": 23.43039871570574,
+    "dv01": 4.439004389576144,
+    "market_yield_percent": 4.223959554144536,
+    "market_gap": 0.0,
+    "market_settlement_value": 9900.0,
+    "yield_solver_residual": 0.0,
+    "audit": {
+      "previous_coupon": "2026-10-01",
+      "next_coupon": "2027-04-01",
+      "remaining_payments": 10,
+      "elapsed_days": 0,
+      "period_days": 182,
+      "accrued_fraction": 0.0,
+      "remaining_fraction": 1.0,
+      "frequency": 2,
+      "day_count": "actual_actual",
+      "date_roll": "maturity_day",
+      "discounting": "compound",
+      "simple_final_used": false,
+      "periodic_yield_percent": 2.111979777072268,
+      "redemption_per_100": 100
+    },
+    "cashflows": [
+      {
+        "date": "2027-04-01",
+        "periods": 1.0,
+        "years": 0.5,
+        "coupon_per_100": 2.0,
+        "principal_per_100": 0.0,
+        "position_cashflow": 200.0,
+        "discount_factor": 0.9793170225307248,
+        "present_value": 195.86340450614497
+      },
+      {
+        "date": "2027-10-01",
+        "periods": 2.0,
+        "years": 1.0,
+        "coupon_per_100": 2.0,
+        "principal_per_100": 0.0,
+        "position_cashflow": 200.0,
+        "discount_factor": 0.9590618306184442,
+        "present_value": 191.81236612368883
+      },
+      {
+        "date": "2028-04-01",
+        "periods": 3.0,
+        "years": 1.5,
+        "coupon_per_100": 2.0,
+        "principal_per_100": 0.0,
+        "position_cashflow": 200.0,
+        "discount_factor": 0.9392255763841211,
+        "present_value": 187.8451152768242
+      },
+      {
+        "date": "2028-10-01",
+        "periods": 4.0,
+        "years": 2.0,
+        "coupon_per_100": 2.0,
+        "principal_per_100": 0.0,
+        "position_cashflow": 200.0,
+        "discount_factor": 0.9197995949492014,
+        "present_value": 183.95991898984028
+      },
+      {
+        "date": "2029-04-01",
+        "periods": 5.0,
+        "years": 2.5,
+        "coupon_per_100": 2.0,
+        "principal_per_100": 0.0,
+        "position_cashflow": 200.0,
+        "discount_factor": 0.9007754006506186,
+        "present_value": 180.1550801301237
+      },
+      {
+        "date": "2029-10-01",
+        "periods": 6.0,
+        "years": 3.0,
+        "coupon_per_100": 2.0,
+        "principal_per_100": 0.0,
+        "position_cashflow": 200.0,
+        "discount_factor": 0.8821446833340845,
+        "present_value": 176.4289366668169
+      },
+      {
+        "date": "2030-04-01",
+        "periods": 7.0,
+        "years": 3.5,
+        "coupon_per_100": 2.0,
+        "principal_per_100": 0.0,
+        "position_cashflow": 200.0,
+        "discount_factor": 0.8638993047240447,
+        "present_value": 172.77986094480895
+      },
+      {
+        "date": "2030-10-01",
+        "periods": 8.0,
+        "years": 4.0,
+        "coupon_per_100": 2.0,
+        "principal_per_100": 0.0,
+        "position_cashflow": 200.0,
+        "discount_factor": 0.8460312948687149,
+        "present_value": 169.20625897374296
+      },
+      {
+        "date": "2031-04-01",
+        "periods": 9.0,
+        "years": 4.5,
+        "coupon_per_100": 2.0,
+        "principal_per_100": 0.0,
+        "position_cashflow": 200.0,
+        "discount_factor": 0.8285328486586435,
+        "present_value": 165.7065697317287
+      },
+      {
+        "date": "2031-10-01",
+        "periods": 10.0,
+        "years": 5.0,
+        "coupon_per_100": 2.0,
+        "principal_per_100": 100.0,
+        "position_cashflow": 10200.0,
+        "discount_factor": 0.8113963224172824,
+        "present_value": 8276.24248865628
+      }
+    ],
+    "shocks": [
+      {
+        "shift_bps": -200,
+        "yield_percent": 2.2239595541445367,
+        "clean_price": 108.36040916710418,
+        "dirty_price": 108.36040916710418,
+        "position_value": 10836.040916710417,
+        "change": 936.0409167104181,
+        "change_percent": 9.454958754650677,
+        "approx_change": 934.1930673723261
+      },
+      {
+        "shift_bps": -100,
+        "yield_percent": 3.2239595541445363,
+        "clean_price": 103.55725791104156,
+        "dirty_price": 103.55725791104156,
+        "position_value": 10355.725791104156,
+        "change": 455.72579110415603,
+        "change_percent": 4.603290819233896,
+        "approx_change": 455.4984863218888
+      },
+      {
+        "shift_bps": -50,
+        "yield_percent": 3.7239595541445367,
+        "clean_price": 101.24877919348457,
+        "dirty_price": 101.24877919348457,
+        "position_value": 10124.877919348457,
+        "change": 224.8779193484566,
+        "change_percent": 2.2714941348328965,
+        "approx_change": 224.84973131987581
+      },
+      {
+        "shift_bps": 0,
+        "yield_percent": 4.223959554144536,
+        "clean_price": 99.0,
+        "dirty_price": 99.0,
+        "position_value": 9900.0,
+        "change": 0.0,
+        "change_percent": 0.0,
+        "approx_change": 0.0
+      },
+      {
+        "shift_bps": 50,
+        "yield_percent": 4.723959554144536,
+        "clean_price": 96.80921545346465,
+        "dirty_price": 96.80921545346465,
+        "position_value": 9680.921545346464,
+        "change": -219.07845465353546,
+        "change_percent": -2.2129136833690444,
+        "approx_change": -219.0507076377386
+      },
+      {
+        "shift_bps": 100,
+        "yield_percent": 5.223959554144537,
+        "clean_price": 94.67477360707997,
+        "dirty_price": 94.67477360707997,
+        "position_value": 9467.477360707997,
+        "change": -432.52263929200296,
+        "change_percent": -4.368915548404074,
+        "approx_change": -432.30239159334013
+      },
+      {
+        "shift_bps": 200,
+        "yield_percent": 6.223959554144537,
+        "clean_price": 90.56856431826358,
+        "dirty_price": 90.56856431826358,
+        "position_value": 9056.856431826358,
+        "change": -843.1435681736417,
+        "change_percent": -8.516601698723658,
+        "approx_change": -841.4086884581316
+      }
+    ],
+    "spread_grid": null,
+    "warnings": []
+  }
+}

@@ -1,0 +1,455 @@
+{
+  "company": "Example",
+  "currency": "USD",
+  "units": "millions",
+  "valuation_date": "2026-09-30",
+  "current_price": 50.0,
+  "bridge": {
+    "cash": 50.0,
+    "nonoperating": 30.0,
+    "debt": 200.0,
+    "preferred": 10.0,
+    "minority": 20.0,
+    "adjustment": -150.0,
+    "shares": 10.0
+  },
+  "dcf": [
+    {
+      "case": "Base",
+      "method": "growth",
+      "wacc": 10.0,
+      "growth": 0.0,
+      "exit_multiple": 8.0,
+      "forecast": [
+        {
+          "year": 1,
+          "ebit": 100.0,
+          "tax_rate": 20.0,
+          "depreciation": 10.0,
+          "capex": 10.0,
+          "change_nwc": 0.0,
+          "taxes": 20.0,
+          "nopat": 80.0,
+          "ebitda": 110.0,
+          "fcff": 80.0,
+          "discount_factor": 0.9090909090909091,
+          "pv_fcff": 72.72727272727273
+        },
+        {
+          "year": 2,
+          "ebit": 100.0,
+          "tax_rate": 20.0,
+          "depreciation": 10.0,
+          "capex": 10.0,
+          "change_nwc": 0.0,
+          "taxes": 20.0,
+          "nopat": 80.0,
+          "ebitda": 110.0,
+          "fcff": 80.0,
+          "discount_factor": 0.8264462809917356,
+          "pv_fcff": 66.11570247933884
+        },
+        {
+          "year": 3,
+          "ebit": 100.0,
+          "tax_rate": 20.0,
+          "depreciation": 10.0,
+          "capex": 10.0,
+          "change_nwc": 0.0,
+          "taxes": 20.0,
+          "nopat": 80.0,
+          "ebitda": 110.0,
+          "fcff": 80.0,
+          "discount_factor": 0.7513148009015778,
+          "pv_fcff": 60.10518407212622
+        },
+        {
+          "year": 4,
+          "ebit": 100.0,
+          "tax_rate": 20.0,
+          "depreciation": 10.0,
+          "capex": 10.0,
+          "change_nwc": 0.0,
+          "taxes": 20.0,
+          "nopat": 80.0,
+          "ebitda": 110.0,
+          "fcff": 80.0,
+          "discount_factor": 0.6830134553650707,
+          "pv_fcff": 54.641076429205654
+        },
+        {
+          "year": 5,
+          "ebit": 100.0,
+          "tax_rate": 20.0,
+          "depreciation": 10.0,
+          "capex": 10.0,
+          "change_nwc": 0.0,
+          "taxes": 20.0,
+          "nopat": 80.0,
+          "ebitda": 110.0,
+          "fcff": 80.0,
+          "discount_factor": 0.6209213230591552,
+          "pv_fcff": 49.67370584473242
+        }
+      ],
+      "terminal_value": 800.0,
+      "pv_terminal": 496.73705844732416,
+      "pv_forecast": 303.26294155267584,
+      "enterprise_value": 800.0,
+      "equity_value": 650.0,
+      "price": 65.0,
+      "terminal_weight_percent": 62.09213230591552,
+      "upside_percent": 30.0
+    },
+    {
+      "case": "Base",
+      "method": "multiple",
+      "wacc": 10.0,
+      "growth": 0.0,
+      "exit_multiple": 8.0,
+      "forecast": [
+        {
+          "year": 1,
+          "ebit": 100.0,
+          "tax_rate": 20.0,
+          "depreciation": 10.0,
+          "capex": 10.0,
+          "change_nwc": 0.0,
+          "taxes": 20.0,
+          "nopat": 80.0,
+          "ebitda": 110.0,
+          "fcff": 80.0,
+          "discount_factor": 0.9090909090909091,
+          "pv_fcff": 72.72727272727273
+        },
+        {
+          "year": 2,
+          "ebit": 100.0,
+          "tax_rate": 20.0,
+          "depreciation": 10.0,
+          "capex": 10.0,
+          "change_nwc": 0.0,
+          "taxes": 20.0,
+          "nopat": 80.0,
+          "ebitda": 110.0,
+          "fcff": 80.0,
+          "discount_factor": 0.8264462809917356,
+          "pv_fcff": 66.11570247933884
+        },
+        {
+          "year": 3,
+          "ebit": 100.0,
+          "tax_rate": 20.0,
+          "depreciation": 10.0,
+          "capex": 10.0,
+          "change_nwc": 0.0,
+          "taxes": 20.0,
+          "nopat": 80.0,
+          "ebitda": 110.0,
+          "fcff": 80.0,
+          "discount_factor": 0.7513148009015778,
+          "pv_fcff": 60.10518407212622
+        },
+        {
+          "year": 4,
+          "ebit": 100.0,
+          "tax_rate": 20.0,
+          "depreciation": 10.0,
+          "capex": 10.0,
+          "change_nwc": 0.0,
+          "taxes": 20.0,
+          "nopat": 80.0,
+          "ebitda": 110.0,
+          "fcff": 80.0,
+          "discount_factor": 0.6830134553650707,
+          "pv_fcff": 54.641076429205654
+        },
+        {
+          "year": 5,
+          "ebit": 100.0,
+          "tax_rate": 20.0,
+          "depreciation": 10.0,
+          "capex": 10.0,
+          "change_nwc": 0.0,
+          "taxes": 20.0,
+          "nopat": 80.0,
+          "ebitda": 110.0,
+          "fcff": 80.0,
+          "discount_factor": 0.6209213230591552,
+          "pv_fcff": 49.67370584473242
+        }
+      ],
+      "terminal_value": 880.0,
+      "pv_terminal": 546.4107642920566,
+      "pv_forecast": 303.26294155267584,
+      "enterprise_value": 849.6737058447325,
+      "equity_value": 699.6737058447325,
+      "price": 69.96737058447324,
+      "terminal_weight_percent": 64.30830570999292,
+      "upside_percent": 39.93474116894648
+    }
+  ],
+  "comps": [
+    {
+      "method": "EV / EBITDA",
+      "count": 2,
+      "multiples": [
+        12.5,
+        15.0,
+        17.5
+      ],
+      "low": 110.0,
+      "mid": 135.0,
+      "high": 160.0,
+      "equity_values": [
+        1100.0,
+        1350.0,
+        1600.0
+      ],
+      "basis": "Peer 25th\u201375th percentiles; marker is median"
+    },
+    {
+      "method": "EV / Revenue",
+      "count": 2,
+      "multiples": [
+        2.5,
+        3.0,
+        3.5
+      ],
+      "low": 110.0,
+      "mid": 135.0,
+      "high": 160.0,
+      "equity_values": [
+        1100.0,
+        1350.0,
+        1600.0
+      ],
+      "basis": "Peer 25th\u201375th percentiles; marker is median"
+    },
+    {
+      "method": "P / E",
+      "count": 2,
+      "multiples": [
+        22.5,
+        27.0,
+        31.5
+      ],
+      "low": 90.0,
+      "mid": 108.0,
+      "high": 126.0,
+      "equity_values": [
+        900.0,
+        1080.0,
+        1260.0
+      ],
+      "basis": "Peer 25th\u201375th percentiles; marker is median"
+    }
+  ],
+  "peer_audit": [
+    {
+      "peer": "A",
+      "method": "EV / EBITDA",
+      "multiple": 10.0,
+      "exclusion": null
+    },
+    {
+      "peer": "B",
+      "method": "EV / EBITDA",
+      "multiple": 20.0,
+      "exclusion": null
+    },
+    {
+      "peer": "A",
+      "method": "EV / Revenue",
+      "multiple": 2.0,
+      "exclusion": null
+    },
+    {
+      "peer": "B",
+      "method": "EV / Revenue",
+      "multiple": 4.0,
+      "exclusion": null
+    },
+    {
+      "peer": "A",
+      "method": "P / E",
+      "multiple": 18.0,
+      "exclusion": null
+    },
+    {
+      "peer": "B",
+      "method": "P / E",
+      "multiple": 36.0,
+      "exclusion": null
+    }
+  ],
+  "ranges": [
+    {
+      "method": "DCF \u00b7 perpetual growth",
+      "low": 65.0,
+      "mid": 65.0,
+      "high": 65.0,
+      "basis": "1 entered case(s); marker is Base"
+    },
+    {
+      "method": "DCF \u00b7 exit EV/EBITDA",
+      "low": 69.96737058447324,
+      "mid": 69.96737058447324,
+      "high": 69.96737058447324,
+      "basis": "1 entered case(s); marker is Base"
+    },
+    {
+      "method": "EV / EBITDA",
+      "low": 110.0,
+      "mid": 135.0,
+      "high": 160.0,
+      "basis": "Peer 25th\u201375th percentiles; marker is median"
+    },
+    {
+      "method": "EV / Revenue",
+      "low": 110.0,
+      "mid": 135.0,
+      "high": 160.0,
+      "basis": "Peer 25th\u201375th percentiles; marker is median"
+    },
+    {
+      "method": "P / E",
+      "low": 90.0,
+      "mid": 108.0,
+      "high": 126.0,
+      "basis": "Peer 25th\u201375th percentiles; marker is median"
+    }
+  ],
+  "sensitivity": [
+    {
+      "method": "growth",
+      "columns": [
+        -1.0,
+        -0.5,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "rows": [
+        {
+          "wacc": 9.0,
+          "values": [
+            67.59177590164269,
+            70.57461889560142,
+            73.88888888888889,
+            77.59307299903371,
+            81.76028012294663
+          ]
+        },
+        {
+          "wacc": 9.5,
+          "values": [
+            63.63198561617132,
+            66.28179244848994,
+            69.21052631578948,
+            72.46467505723339,
+            76.10166482708249
+          ]
+        },
+        {
+          "wacc": 10.0,
+          "values": [
+            60.032629415526756,
+            62.398043979561635,
+            65.0,
+            67.87584612785292,
+            71.07123071435619
+          ]
+        },
+        {
+          "wacc": 10.5,
+          "values": [
+            56.74668406047377,
+            58.86758484979311,
+            61.19047619047619,
+            63.74565666522758,
+            66.56980350574227
+          ]
+        },
+        {
+          "wacc": 11.0,
+          "values": [
+            53.7349637930606,
+            55.64432893550988,
+            57.72727272727273,
+            60.00859211825108,
+            62.518043448327276
+          ]
+        }
+      ]
+    },
+    {
+      "method": "multiple",
+      "columns": [
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0
+      ],
+      "rows": [
+        {
+          "wacc": 9.0,
+          "values": [
+            59.012681602504536,
+            66.16192685178633,
+            73.31117210106814,
+            80.46041735034994,
+            87.60966259963173
+          ]
+        },
+        {
+          "wacc": 9.5,
+          "values": [
+            57.64269620065663,
+            64.6302005187571,
+            71.61770483685758,
+            78.60520915495806,
+            85.59271347305852
+          ]
+        },
+        {
+          "wacc": 10.0,
+          "values": [
+            56.30710147717183,
+            63.137236030822535,
+            69.96737058447324,
+            76.79750513812395,
+            83.62763969177466
+          ]
+        },
+        {
+          "wacc": 10.5,
+          "values": [
+            55.0048582991097,
+            61.6818570510053,
+            68.3588558029009,
+            75.03585455479652,
+            81.71285330669211
+          ]
+        },
+        {
+          "wacc": 11.0,
+          "values": [
+            53.7349637930606,
+            60.26292840170475,
+            66.7908930103489,
+            73.31885761899305,
+            79.84682222763719
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "EV / EBITDA: only 2 eligible peers; this range is sensitive to peer selection.",
+    "EV / Revenue: only 2 eligible peers; this range is sensitive to peer selection.",
+    "P / E: only 2 eligible peers; this range is sensitive to peer selection."
+  ],
+  "model_version": 1
+}
