@@ -1,0 +1,9 @@
+import {num} from './data.js';
+export const emptySurface=()=>({version:1,source:'demo',symbol:'',expirations:[],kind:'otm',rate:'0',dividend_yield:'0',min_open_interest:'0',max_spread_percent:'50'});
+export const emptyCrypto=()=>({version:1,source:'market',holdings:[{ticker:'',quantity:'',avg_cost:''}],cash:'0',benchmark:'BTC-USD',start:'',end:'',risk_free_percent:'0'});
+export const cryptoExample=()=>({...emptyCrypto(),source:'demo',holdings:[{ticker:'DEMO-BTC',quantity:'.1',avg_cost:'35000'},{ticker:'DEMO-ETH',quantity:'2',avg_cost:''}],cash:'1000',benchmark:'DEMO-BTC',start:'2024-01-01',end:'2025-12-31'});
+const str=(v,n=100)=>typeof v==='string'&&v.length<=n;
+export const validSurface=s=>!!s&&s.version===1&&['demo','market'].includes(s.source)&&str(s.symbol,40)&&['otm','call','put'].includes(s.kind)&&['rate','dividend_yield','min_open_interest','max_spread_percent'].every(k=>str(s[k]))&&Array.isArray(s.expirations)&&s.expirations.length<=4&&s.expirations.every(v=>str(v,10));
+export const validCrypto=s=>!!s&&s.version===1&&['demo','market'].includes(s.source)&&['cash','start','end','risk_free_percent'].every(k=>str(s[k]))&&str(s.benchmark,40)&&Array.isArray(s.holdings)&&s.holdings.length>=1&&s.holdings.length<=10&&s.holdings.every(h=>h&&str(h.ticker,40)&&str(h.quantity)&&str(h.avg_cost));
+export const surfacePayload=s=>({source:s.source,symbol:s.symbol.trim().toUpperCase(),expirations:s.source==='demo'?[]:s.expirations,kind:s.kind,...Object.fromEntries(['rate','dividend_yield','min_open_interest','max_spread_percent'].map(k=>[k,num(s[k])]))});
+export const cryptoPayload=s=>({source:s.source,start:s.start,end:s.end,benchmark:s.benchmark.trim().toUpperCase(),cash:num(s.cash),risk_free_percent:num(s.risk_free_percent),holdings:s.holdings.map(h=>({ticker:h.ticker.trim().toUpperCase(),quantity:num(h.quantity),avg_cost:num(h.avg_cost)}))});

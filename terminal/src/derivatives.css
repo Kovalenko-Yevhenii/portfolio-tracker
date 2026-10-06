@@ -1,0 +1,14 @@
+.analytics-tool-switch{display:flex;gap:6px;margin-bottom:26px;width:fit-content;max-width:100%}
+.analytics-tool-switch button{padding:11px 18px}
+.analytics-tool-switch button[aria-pressed=true]{background:#30413f;color:#adedd9;border-color:#5dc9b0}
+.derivatives-lab .options-fields label small{font-size:12px;line-height:1.5;font-weight:400}
+.derivatives-lab .options-summary{margin-bottom:8px}
+.derivatives-lab .options-summary strong{font-size:clamp(18px,1.8vw,24px)}
+.derivatives-results .greek-strip strong{font-size:20px;overflow-wrap:anywhere}
+.derivatives-results .analytics-audit-summary strong{overflow-wrap:anywhere}
+.derivatives-results .sensitivity-table .pricing-base-cell{box-shadow:inset 0 0 0 2px #e9b66c;color:#f7d69f}
+.pricing-base-cell small{display:block;font-size:10px;margin-top:5px}
+.pricing-formula{font-family:var(--mono);overflow-wrap:anywhere}
+.bond-examples{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:20px}.bond-example-confirm{flex-wrap:wrap;gap:12px}.bond-risk{margin:20px}.bond-price-chart{width:100%;min-width:0;padding:0 12px}.bond-cashflows{max-height:500px;overflow:auto}.bond-base-row{background:#20322f}.bond-results .analytics-audit-summary strong{font-size:18px}.bond-results .options-summary strong{font-size:19px}.bond-results .recharts-text{fill:#a0aec0;font-size:12px}
+.derivatives-results th{white-space:normal;line-height:1.5}
+@media(max-width:520px){.analytics-tool-switch{width:100%}.analytics-tool-switch button{flex:1;padding:10px;font-size:13px}.derivatives-lab .options-summary{grid-template-columns:1fr}.derivatives-results .greek-strip{grid-template-columns:1fr 1fr}}
