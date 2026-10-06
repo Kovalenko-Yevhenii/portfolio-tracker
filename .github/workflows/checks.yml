@@ -1,0 +1,31 @@
+name: Checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: pip
+          cache-dependency-path: requirements-lock.txt
+      - uses: pnpm/action-setup@v4
+        with:
+          version: '11.25.0'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24.19.0'
+          cache: pnpm
+          cache-dependency-path: terminal/pnpm-lock.yaml
+      - run: python -m pip install -r requirements-lock.txt
+      - run: python -m pip check
+      - run: python -m unittest discover -q
+        env:
+          MPLBACKEND: Agg
+      - run: pnpm --dir terminal install --frozen-lockfile
+      - run: pnpm --dir terminal test
+      - run: pnpm --dir terminal build
+      - run: python scripts/check_release.py
